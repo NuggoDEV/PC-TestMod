@@ -29,7 +29,7 @@ namespace TestMod.Configuration
         /// <summary>
         /// Call this to have BSIPA copy the values from <paramref name="other"/> into this config.
         /// </summary>
-        public virtual void CopyFrom(PluginConfig other)
+        public virtual void CopyFrom(PluginConfig other) //
         {
             // This instance's members populated from other
         }
